@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component Should render component without errors 1`] = `
+<div>
+  <button
+    class="makeStyles-root-1 MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root css-1o1g6k0-MuiButtonBase-root-MuiButton-root"
+    data-fx="fx-button"
+    name="test-button"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      Test button
+    </span>
+    <span
+      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;

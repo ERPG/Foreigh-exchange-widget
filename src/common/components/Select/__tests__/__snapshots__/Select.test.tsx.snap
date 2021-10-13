@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select component Should render component without errors 1`] = `
+<div>
+  <div
+    class="MuiFormControl-root MuiFormControl-fullWidth css-1v3hyuc-MuiFormControl-root"
+  >
+    <div
+      class="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl makeStyles-root-1 MuiSelect-root css-1480iag-MuiInputBase-root-MuiInput-root"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-label="Without label"
+        aria-labelledby="mui-component-select-test-select"
+        class="MuiSelect-select MuiSelect-standard MuiInput-input MuiInputBase-input css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+        id="mui-component-select-test-select"
+        role="button"
+        tabindex="0"
+      >
+        <span
+          class="notranslate"
+        >
+          ​
+        </span>
+      </div>
+      <input
+        aria-hidden="true"
+        class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+        data-fx="fx-currency-selection"
+        name="test-select"
+        tabindex="-1"
+        value="0"
+      />
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconStandard css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon"
+        data-testid="ArrowDropDownIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 10l5 5 5-5z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

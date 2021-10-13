@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component Should render component without errors 1`] = `
+<div>
+  <div
+    class="MuiFormControl-root MuiTextField-root"
+  >
+    
+    <div
+      class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-marginDense MuiInput-marginDense"
+    >
+      <input
+        aria-invalid="false"
+        class="MuiInputBase-input MuiInput-input MuiInputBase-inputMarginDense MuiInput-inputMarginDense"
+        data-fx="fx-amount-input"
+        id="currency-amount"
+        inputmode="numeric"
+        name="test-input"
+        type="text"
+        value="0"
+      />
+    </div>
+  </div>
+</div>
+`;

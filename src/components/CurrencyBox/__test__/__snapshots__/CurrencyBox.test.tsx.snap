@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrencyBox component Should render component without errors 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1ps6pg7-MuiPaper-root"
+    style="text-align: center; height: 80px; line-height: 60px; margin: 16px; display: flex; justify-content: space-around; align-items: center;"
+  >
+    <div>
+      <div
+        class="MuiFormControl-root MuiTextField-root"
+      >
+        <label
+          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-marginDense MuiFormLabel-filled"
+          data-shrink="true"
+          for="currency-amount"
+          id="currency-amount-label"
+        >
+          mock-label
+        </label>
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-marginDense MuiInput-marginDense"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiInput-input MuiInputBase-inputMarginDense MuiInput-inputMarginDense"
+            data-fx="fx-amount-input"
+            id="currency-amount"
+            inputmode="numeric"
+            name="mock-id-input"
+            type="text"
+            value="10"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      style="margin-top: 16px;"
+    >
+      <div
+        class="MuiFormControl-root MuiFormControl-fullWidth css-1v3hyuc-MuiFormControl-root"
+      >
+        <div
+          class="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl makeStyles-root-1 MuiSelect-root css-1480iag-MuiInputBase-root-MuiInput-root"
+        >
+          <div
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-label="Without label"
+            aria-labelledby="mui-component-select-mock-id-select"
+            class="MuiSelect-select MuiSelect-standard MuiInput-input MuiInputBase-input css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+            id="mui-component-select-mock-id-select"
+            role="button"
+            tabindex="0"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </div>
+          <input
+            aria-hidden="true"
+            class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+            data-fx="fx-currency-selection"
+            name="mock-id-select"
+            tabindex="-1"
+            value="0"
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconStandard css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon"
+            data-testid="ArrowDropDownIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
