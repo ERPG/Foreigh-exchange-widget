@@ -35,7 +35,6 @@ export class ForeighRates {
     for (const key in this._rates) {
       newRatesArr.push({
         currency: key as Currencies,
-        // == CAMBIAR EL ANY ==
         rate: (this._rates as any)[key],
       });
     }

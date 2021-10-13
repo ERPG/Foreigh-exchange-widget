@@ -10,8 +10,7 @@ import {
 } from '../types';
 
 export const defaultBase = Currencies.EUR;
-// export const defaultCurrencies = (currencies: Currencies) => Object.keys(currencies);
-export const defaultCurrencies = ['EUR', 'USD', 'GBP'];
+export const defaultCurrencies = [Currencies.EUR, Currencies.USD, Currencies.GBP];
 
 export function getForeighRates(
   base: Currencies = Currencies.EUR,
